@@ -1,15 +1,31 @@
 .blank_side{background-color: #282c2f;}
+a:hover{text-decoration: none;
+color: white;}
 /* Upper section */
-.upper_section{color: white;}
+.upper_section{
+    color: white;
+    background-color: #282c2f;
+    background-image: url('bg.jpeg');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: right;
+    border-top: 5px solid white;
+}
 
 /* upper first col */
 .main_logo{
-    background-color: #f09165;
+    background-color: #f7560b9f ;
+}
+.main_logo_header{
+    padding-top: 5%;
 }
 .main_logo_header h2 span{
-    font-weight: 1000;
+    font-weight: bold;
     text-decoration: overline;
+    font-size: 90px;
 }
+.main_logo_header h2 sub{font-size: small;}
 .main_logo_header hr{
     background-color: white;
     height: 5px;
@@ -17,19 +33,28 @@
 /* icon part */
 .icon_div{
     padding-top: 10%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 .icon_div li{
     list-style: none;
     display: inline-flex;
     padding: 2%;
 }
+.bussiness_txt{
+    margin-left: 10%;
+    text-transform: uppercase;
+    padding-bottom: 1.5%;
+}
 /* upper second col */
+.txt_trend{
+    padding: 5%;
+}
 .txt_trend h4{
-    background-color: #f09165;
+    background-color: #f7560b9f;
     border: 5px solid white;
     writing-mode:vertical-rl;
     text-orientation: upright;
+    float: right;
 }
 /* Bottom section */
 .bottm_section{
@@ -40,19 +65,36 @@
 }
 .address_section{
     border-left: 4px solid white ;
-    margin-top: -15%;
+    margin-top: -13%;
 }
 .address_section ul{
-    padding-top: 15%;
+    padding-top: 18%;
+}
+.menu_list{margin-top: 45%;}
+.menu_list a{
+    text-decoration: none;
+    color: white;
+}
+.menu_list a:hover{
+    text-decoration: none;
+    color: white;
 }
 .address_section ul li{
     list-style: none;
     padding: 2%;
     margin-left: -15%;
 }
+.address_list a{
+    text-decoration: none;
+    color: white;
+}
+.address_list a:hover{
+    text-decoration: none;
+    color: white;
+}
 /* A write part section */
 .about_section{
-    background-color: #72ada9 ;
+    background-color: #5ab4aeb5 ;
     margin-top: -15%;
     padding-top: 15%;
 }
@@ -60,23 +102,39 @@
     list-style: none;
     display: inline-flex;
 }
-.about ul li{
-    padding: 5%;
-}
+.about ul li{padding: 5%;}
 .txt_about{
     text-align: right;
 }
 .three_icon{
     text-align: center;
 }
-.three_icon svg{
-    width: 100px;
-}
 .about a{
-    margin-left: 40%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-left: 38%;
+}
+.about a:hover{
+    text-decoration: none;
+    color: white;
 }
 .about hr{
-    box-shadow: 5px 5px #282c2f;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    background-color: #7ab0ae;
+    padding: 0.5px;
+    box-shadow: 1px 1px #282c2f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.txt_about{
+    padding: 5%;
+}
+.txt_about h2{
+    font-weight: bold;
+    font-size: 500%;
+}
+.txt_about p{
+    font-size: medium;
+    padding-left: 20%;
+    color: white;
 }
