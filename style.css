@@ -1,0 +1,27 @@
+/* Upper section */
+.upper_section{color: white;}
+
+/* upper first col */
+.main_logo{
+    background-color: #f09165;
+}
+.main_logo_header h3{
+    text-decoration: overline;
+}
+.main_logo_header hr{
+    background-color: white;
+}
+.logo_up_hr{width: 8%;
+padding: 3px;
+}
+.icon_div li{
+    list-style: none;
+    display: inline-flex;
+}
+/* upper second col */
+.txt_trend h4{
+    background-color: #f09165;
+    border: 5px solid white;
+    margin-left: 45%;
+    margin-right: 45%;
+}
